@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet } from 'react-native'
+import Card from './Card'
+import CardSection from './CardSection';
 
 class AlbumDetail extends Component {
     render() {
         console.log(this.props);
         
         return (
-            <View>
-                <Text> textInComponent </Text>
-            </View>
+            <Card>
+                <CardSection>
+                    <Text> {this.props.data.title} </Text>
+                </CardSection>
+            </Card>
         )
     }
 }
