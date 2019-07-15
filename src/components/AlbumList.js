@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, ScrollView } from 'react-native'
+import { ScrollView } from 'react-native'
 import albumData from '../../api/albumData';
 import AlbumDetail from './AlbumDetail';
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Text, View, StyleSheet, Image } from 'react-native'
 import Card from './Card'
 import CardSection from './CardSection';
+import Button from './Button';
 
 class AlbumDetail extends Component {
     render() {
@@ -19,6 +20,9 @@ class AlbumDetail extends Component {
                 </CardSection>
                 <CardSection>
                     <Image style={styles.imageStyle} source={{uri: image}} />
+                </CardSection>
+                <CardSection>
+                    <Button />
                 </CardSection>
             </Card>
         )
